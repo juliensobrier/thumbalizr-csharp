@@ -1,0 +1,7 @@
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\bin\Debug\Tests.dll
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\bin\Debug\Tests.pdb
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\bin\Debug\Thumbalizr.dll
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\bin\Debug\Thumbalizr.pdb
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\obj\Debug\Tests.dll
+C:\Users\Julien\Downloads\thumbalizr-csharp\Tests\obj\Debug\Tests.pdb

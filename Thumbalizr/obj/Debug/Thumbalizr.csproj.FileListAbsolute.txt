@@ -1,0 +1,4 @@
+C:\Users\Julien\Downloads\thumbalizr-csharp\Thumbalizr\bin\Debug\Thumbalizr.dll
+C:\Users\Julien\Downloads\thumbalizr-csharp\Thumbalizr\bin\Debug\Thumbalizr.pdb
+C:\Users\Julien\Downloads\thumbalizr-csharp\Thumbalizr\obj\Debug\Thumbalizr.dll
+C:\Users\Julien\Downloads\thumbalizr-csharp\Thumbalizr\obj\Debug\Thumbalizr.pdb
