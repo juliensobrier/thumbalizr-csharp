@@ -15,7 +15,7 @@ using System.Reflection;
  * <p>For examples on how to use the library, take a look at the unit tests.</p>
  * <p>Before you use this library, please take a look at the API documentation 
  * at https://api.thumbalizr.com/.<br /></p>
- * <p>The source code can be found at https://github.com/juliensobrier/thumbalizr-csharp. Patches are welcome!/p>
+ * <p>The source code can be found at https://github.com/juliensobrier/thumbalizr-csharp. Patches are welcome!</p>
  * Announcements about the API and the libraries are on our blog at http://blog.thumbalizr.com/
  * <p>The latest documentation for borwshot-csharp can be found at http://juliensobrier.github.com/thumbalizr-csharp/</p>
  * */
@@ -307,8 +307,19 @@ namespace Thumbalizr
 
     }
 
+    /// <summary>
+    /// Status of the screenshot
+    /// </summary>
     public enum Status { Finished, Processing, Error };
+
+    /// <summary>
+    /// THumbnail format
+    /// </summary>
     public enum Encoding {  Png, Jpg};
+
+    /// <summary>
+    /// Screenshot mode
+    /// </summary>
     public enum Mode { Screen, Page };
 
     /// <summary>
@@ -330,6 +341,10 @@ namespace Thumbalizr
         }
 
         internal string error;
+
+        /// <summary>
+        /// Description of the error
+        /// </summary>
         public string Error
         {
             get
@@ -340,6 +355,9 @@ namespace Thumbalizr
 
         internal DateTime generated;
 
+        /// <summary>
+        /// Date the screenshot was generated
+        /// </summary>
         public DateTime Generated
         {
             get
@@ -364,6 +382,9 @@ namespace Thumbalizr
 
         internal string url;
 
+        /// <summary>
+        /// URL of the page
+        /// </summary>
         public String Url
         {
             get
@@ -374,6 +395,9 @@ namespace Thumbalizr
 
         internal Encoding encoding;
 
+        /// <summary>
+        /// Thumbnail format
+        /// </summary>
         public Encoding Encoding {
             get
             {
@@ -384,8 +408,8 @@ namespace Thumbalizr
         /// <summary>
         /// Save thumbnail to disk
         /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
+        /// <param name="path">Directory or full path to save the thubnail</param>
+        /// <returns>Path of the thumbnail</returns>
         public string Save(string path = "")
         {
             if (thumbnail == null)
