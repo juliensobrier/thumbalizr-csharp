@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Thumbalizr")]
+[assembly: AssemblyTitle("Example")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Browshot")]
-[assembly: AssemblyProduct("Thumbalizr")]
-[assembly: AssemblyCopyright("Copyright © Browshot 2015")]
+[assembly: AssemblyProduct("Example")]
+[assembly: AssemblyCopyright("Copyright © Browshot2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1c922c57-8cf1-4140-8801-ef9c4361bd8a")]
+[assembly: Guid("642343ec-1483-428f-890b-67346045c709")]
 
 // Version information for an assembly consists of the following four values:
 //

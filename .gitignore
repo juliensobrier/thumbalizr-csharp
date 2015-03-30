@@ -1,1 +1,7 @@
 html/
+TestResults/
+Thumbalizr/obj/
+Thumbalizr/bin/
+Example/obj/
+Example/bin/
+Tests/obj/
